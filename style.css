@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding-top: 4rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+:root{
+    --main-color:#bc9667;
+    --second-color:#edeae3;
+    --text-color:#fff;
+    --bg-color:#069696;
+    --box-shadow:2px 2px 10px 4px rgb(14 55 54 / 15%); 
+}
+section{
+    padding: 50px 100px;
+    color: var(--bg-color);
+}
+img{
+    width: 100%;
+}
+body{
+    color: var(--text-color);
+    background: #CECECE;
+}
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 10000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 100px;
+    transition: 0.5s linear;
+    background-color: var(--bg-color);
+    color: #fff;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+}
+.logo img{
+    width: 60px;
+
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    padding: 8px 17px;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+.navbar a:hover {
+    background: var(--main-color);
+    border-radius: 0.2rem;
+    transition: 0.2s all linear;
+}
+.header-icon{
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 10000;
+    display: flex;
+    column-gap: 0.8rem;
+}
+.header-icon .bx{
+    color: var(--text-color);
+}
+.header-icon .bx:hover{
+    color: var(--main-color);
+
+}
+.home{
+    background: #069696;
+    color: #FFFFFF;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+    border-bottom-left-radius: 200px;
+}
+.home-text h1 {
+    font-size: 3.4rem;
+    text-transform: uppercase;
+    font-family: 'Faster One', cursive;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.home-text p{
+    font-size: 0.93rem;
+    margin: 0.5rem 0 1.4rem;
+    font-family: 'ABeeZee', sans-serif;
+}
+.home-text h3{
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0.5rem 0 1.4rem;
+    font-family: 'Abril Fatface', cursive;
+}
+.social-media i {
+    height: 40px ;
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.content{
+    display: flex;
+    max-width: 1208px;
+    height: 438px;
+    border-radius: 30px;
+    background-color: #EBE7E7;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+.content2{
+    display: flex;
+    max-width: 1208px;
+    height: 438px;
+    border-radius: 30px;
+    background-color: #EBE7E7;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 40px;
+}
+.content img{
+    width: 554px;
+    height: 351px;
+    top: 995px;
+    left: 166px;
+    border-radius: 20px;
+}
+.content2 img{
+    width: 554px;
+    height: 351px;
+    top: 995px;
+    left: 166px;
+    border-radius: 20px;
+}
+
+.about-text{
+    margin-left: 20px;
+    color: #000000;
+}
+.about-text2{
+    margin-right: 20px;
+    color: #000000;
+}
+
+.about-text h2{
+    margin-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+.about-text2 h2{
+    margin-top: 20px;
+    font-family: 'Abril Fatface', cursive;
+}
+.about-text p{
+    font-family: 'Abel', sans-serif;
+    margin-top: 30px;
+}
+.about-text2 p{
+    font-family: 'Abel', sans-serif;
+    margin-top: 30px;
+}
+
+.button{
+    margin-top: 20px;
+}
+button{
+    font-family: 'Abel', sans-serif;
+    width: 148px;
+    height: 42px;
+    top: 1255px;
+    left: 790px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #069696;
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+
+}
+button:hover{
+    background: var(--main-color);
+}
+.btn2{
+    margin-left: 20px;
+}
+.see-more{
+    text-align: center;
+}
+.btn3{
+    width: 348px;
+    height: 68px;
+    top: 2465px;
+    left: 604px;
+    border-radius: 20px;
+}
+.myself{
+    display: flex;
+    background: #F6F6F6;
+    height: 1036px;
+    top: 2606px;
+    border-radius: 0px 150px 0px 0px;
+
+}
+.about-myself h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+}
+.about-myself p{
+    font-family: 'Abel', sans-serif;
+    margin-top: 20px;
+    color: #000000;
+
+}
+.about-myself h3{
+    margin-top: 30px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 28px;
+    font-weight: 400;
+    color: #000000;
+}
+.resume{
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+.btn4{
+    width: 267px;
+    height: 70px;
+    top: 3269px;
+    left: 58px;
+    border-radius: 20px;
+    border: 1;
+    color: #069696;
+    background: #F6F6F6;
+
+}
+.skills{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Abel', sans-serif;
+    color: #000;
+
+}
+.language-part{
+    display: flex;
+}
+.language-part i{
+    margin-left: 190px;
+}
+.language-icon{
+    font-size: 100px;
+    display: flex;
+}
+.frame-work{
+    display: flex;
+    margin-top: 50px;
+}
+.frame-work i{
+    margin-left: 180px;
+}
+.skill{
+    display: flex;
+    margin-top: 50px;
+}
+.skill i{
+    margin-left: 243px;
+}
+.contact{
+    background: #069696;
+    color: #FFFFFF;
+    top: 3468px;
+    left: -1px;
+    margin-top: -300px;
+    border-radius: 200px 0px 0px 0px;
+}
+.contact-part{
+    text-align: center;
+}
+.contact-part h2{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    font-weight: 400;
+}
+.contact-part p{
+    font-family: 'Abel', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.input-part{
+    margin-top: 20px;
+}
+input{
+    width: 590px;
+    height: 107px;
+    top: 3770px;
+    left: 465px;
+    border-radius: 20px;
+    border: none;
+}
+input::placeholder{
+    font-family: 'Abel', sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+}
+.email{
+    margin-top: 20px;
+}
+.long-text{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    height: 214px;
+}
+.btn5{
+    background: #F6F5F5;
+    color: #000000;
+    border: none;
+    width: 267px;
+    height: 70px;
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .home{
+        background: #069696;
+        color: #FFFFFF;
+        width: 100%;
+        height: 1200px;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1.5rem;
+        border-bottom-left-radius: 200px;
+    }   
+}
